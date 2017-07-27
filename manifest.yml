@@ -1,0 +1,5 @@
+---
+applications:
+ - name: IT2017_TEAM17041809163800955
+   random-route: false
+   memory: 512M

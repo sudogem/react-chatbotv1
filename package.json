@@ -1,0 +1,42 @@
+{
+  "name": "it2017_team17041809163800955",
+  "main": "index.js",
+  "description": "Rupfa",
+  "private": false,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./index.js",
+    "build": "webpack -d --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ng.bluemix.net:IT2017_TEAM17041809163800955/it2017_team17041809163800955.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cfenv": "^1.0.x",
+    "express": "^4.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "socket.io": "^1.5.1",
+    "watson-developer-cloud": "^2.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "material-ui": "^0.18.0",
+    "prompt-sync": "^4.1.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
